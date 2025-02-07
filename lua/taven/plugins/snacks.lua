@@ -34,5 +34,6 @@ return {
     { "<leader>n",  function() Snacks.notifier.show_history() end, desc = "Notification History" },
     { "<leader>gg", function() Snacks.lazygit() end, desc = "Lazygit" },   
     { "<leader>ff", function() Snacks.picker.files() end, desc = "File Picker"},
+    { "<leader>fs", function() Snacks.picker.grep() end, desc = "Search words"},
   }
 }
