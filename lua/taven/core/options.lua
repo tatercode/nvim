@@ -20,3 +20,4 @@ opt.signcolumn = "yes"
 -- clipboard
 opt.clipboard:append("unnamedplus") -- use system clipboard as default register
 
+
