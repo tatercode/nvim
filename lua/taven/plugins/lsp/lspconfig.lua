@@ -10,5 +10,6 @@ return {
       lspconfig.pyright.setup({})
       lspconfig.rust_analyzer.setup({})
       lspconfig.tailwindcss.setup({})
+      lspconfig.clangd.setup({})
   end,
 }
