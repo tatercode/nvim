@@ -1,4 +1,4 @@
 return {
-  cmd = { 'true' }
-  filetype = { 'ts', 'tsx' }
+  cmd = { 'true' },
+  filetype = { 'ts', 'tsx' },
 }
