@@ -1,7 +1,7 @@
 return {
   "williamboman/mason.nvim",
   dependencies = {
-    "williamboman/mason-lspconfig.nvim",
+"williamboman/mason-lspconfig.nvim",
   },
   config = function()
     require("mason").setup({
@@ -23,6 +23,7 @@ return {
         "pyright",
         "rust_analyzer",
         "tailwindcss",
+        "clangd",
       }
     })
   end,
